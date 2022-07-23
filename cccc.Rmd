@@ -1,0 +1,19 @@
+---
+title: "ccc"
+output: html_document
+date: '2022-04-06'
+---
+
+```{r}
+#install.packages("readr")
+library(readr)
+```
+
+
+```{r echo=TRUE}
+daily_activity <- read_csv("/Users/irina/Desktop/Fitabase Data 4.12.16-5.12.16/dailyActivity_merged.csv")
+daily_intensities <- read_csv("/Users/irina/Desktop/Fitabase Data 4.12.16-5.12.16/dailyIntensities_merged.csv")
+daily_calories <- read_csv("/Users/irina/Desktop/Fitabase Data 4.12.16-5.12.16/dailyCalories_merged.csv")
+daily_steps <- read_csv("/Users/irina/Desktop/Fitabase Data 4.12.16-5.12.16/dailySteps_merged.csv")
+daily_sleep <- read_csv("/Users/irina/Desktop/Fitabase Data 4.12.16-5.12.16/sleepDay_merged.csv")
+```
